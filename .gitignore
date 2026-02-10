@@ -1,0 +1,33 @@
+# === Java / Maven ===
+target/
+*.log
+*.class
+
+# === Maven Wrapper ===
+.mvn/wrapper/maven-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === Eclipse / STS ===
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache
+
+# === VS Code ===
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Env files ===
+.env
+.env.*
+!.env.example
